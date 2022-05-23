@@ -1,0 +1,19 @@
+{
+	"name": "dataLake_bronzeLayer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Bronze Layer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
