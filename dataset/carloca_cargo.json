@@ -1,0 +1,15 @@
+{
+	"name": "carloca_cargo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Carloca",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`loc_cargo`"
+		}
+	}
+}
