@@ -1,0 +1,25 @@
+{
+	"name": "Uber_MigrationHistory",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UberSQLServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "MigrationId",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductVersion",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "__EFMigrationsHistory"
+		}
+	}
+}
